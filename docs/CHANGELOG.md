@@ -2,30 +2,30 @@
 title: Changelog | Voyager
 description: Changelog
 menu:
-  product_voyager_7.0.0:
+  product_voyager_7.1.0:
     identifier: changelog-voyager
     name: Changelog
     parent: welcome
     weight: 10
 product_name: voyager
-menu_name: product_voyager_7.0.0
+menu_name: product_voyager_7.1.0
 section_menu_id: welcome
-url: /products/voyager/7.0.0/welcome/changelog/
+url: /products/voyager/7.1.0/welcome/changelog/
 aliases:
-  - /products/voyager/7.0.0/CHANGELOG/
+  - /products/voyager/7.1.0/CHANGELOG/
 ---
 
 # Change Log
 
-## [7.0.0](https://github.com/appscode/voyager/tree/7.0.0) (2018-05-28)
-[Full Changelog](https://github.com/appscode/voyager/compare/7.0.0-rc.3...7.0.0)
+## [7.1.0](https://github.com/appscode/voyager/tree/7.1.0) (2018-05-28)
+[Full Changelog](https://github.com/appscode/voyager/compare/7.1.0-rc.3...7.1.0)
 
 **Merged pull requests:**
 
-- Prepare 7.0.0 release [\#1076](https://github.com/appscode/voyager/pull/1076) ([tamalsaha](https://github.com/tamalsaha))
+- Prepare 7.1.0 release [\#1076](https://github.com/appscode/voyager/pull/1076) ([tamalsaha](https://github.com/tamalsaha))
 
-## [7.0.0-rc.3](https://github.com/appscode/voyager/tree/7.0.0-rc.3) (2018-05-23)
-[Full Changelog](https://github.com/appscode/voyager/compare/7.0.0-rc.2...7.0.0-rc.3)
+## [7.1.0-rc.3](https://github.com/appscode/voyager/tree/7.1.0-rc.3) (2018-05-23)
+[Full Changelog](https://github.com/appscode/voyager/compare/7.1.0-rc.2...7.1.0-rc.3)
 
 **Fixed bugs:**
 
@@ -33,12 +33,12 @@ aliases:
 
 **Merged pull requests:**
 
-- Prepare docs for 7.0.0-rc.3 [\#1072](https://github.com/appscode/voyager/pull/1072) ([tamalsaha](https://github.com/tamalsaha))
+- Prepare docs for 7.1.0-rc.3 [\#1072](https://github.com/appscode/voyager/pull/1072) ([tamalsaha](https://github.com/tamalsaha))
 - Checked nil pointer before validating oauth [\#1071](https://github.com/appscode/voyager/pull/1071) ([diptadas](https://github.com/diptadas))
 - Update changelog [\#1069](https://github.com/appscode/voyager/pull/1069) ([tamalsaha](https://github.com/tamalsaha))
 
-## [7.0.0-rc.2](https://github.com/appscode/voyager/tree/7.0.0-rc.2) (2018-05-23)
-[Full Changelog](https://github.com/appscode/voyager/compare/7.0.0-rc.1...7.0.0-rc.2)
+## [7.1.0-rc.2](https://github.com/appscode/voyager/tree/7.1.0-rc.2) (2018-05-23)
+[Full Changelog](https://github.com/appscode/voyager/compare/7.1.0-rc.1...7.1.0-rc.2)
 
 **Fixed bugs:**
 
@@ -58,15 +58,15 @@ aliases:
 - Install correct version of voyager chart [\#1063](https://github.com/appscode/voyager/pull/1063) ([tamalsaha](https://github.com/tamalsaha))
 - Avoid creating apiservice when webhooks are not used. [\#1062](https://github.com/appscode/voyager/pull/1062) ([tamalsaha](https://github.com/tamalsaha))
 - Add --haproxy-image-tag flag to installer [\#1061](https://github.com/appscode/voyager/pull/1061) ([tamalsaha](https://github.com/tamalsaha))
-- Prepare docs for 7.0.0-rc.2 [\#1060](https://github.com/appscode/voyager/pull/1060) ([tamalsaha](https://github.com/tamalsaha))
+- Prepare docs for 7.1.0-rc.2 [\#1060](https://github.com/appscode/voyager/pull/1060) ([tamalsaha](https://github.com/tamalsaha))
 - Support NodeSelector and Tolerations via annotation for std ingress [\#1059](https://github.com/appscode/voyager/pull/1059) ([tamalsaha](https://github.com/tamalsaha))
 - Remove redundant assignment [\#1058](https://github.com/appscode/voyager/pull/1058) ([gavvvr](https://github.com/gavvvr))
 - Move oauth2-proxy image to Voyager repo [\#1057](https://github.com/appscode/voyager/pull/1057) ([tamalsaha](https://github.com/tamalsaha))
 - No auth-check for auth-backend-path itself [\#1056](https://github.com/appscode/voyager/pull/1056) ([diptadas](https://github.com/diptadas))
 - Added http2 example [\#1052](https://github.com/appscode/voyager/pull/1052) ([ssro](https://github.com/ssro))
 
-## [7.0.0-rc.1](https://github.com/appscode/voyager/tree/7.0.0-rc.1) (2018-05-14)
-[Full Changelog](https://github.com/appscode/voyager/compare/7.0.0-rc.0...7.0.0-rc.1)
+## [7.1.0-rc.1](https://github.com/appscode/voyager/tree/7.1.0-rc.1) (2018-05-14)
+[Full Changelog](https://github.com/appscode/voyager/compare/7.1.0-rc.0...7.1.0-rc.1)
 
 **Fixed bugs:**
 
@@ -84,7 +84,7 @@ aliases:
 **Merged pull requests:**
 
 - Update changelog [\#1051](https://github.com/appscode/voyager/pull/1051) ([tamalsaha](https://github.com/tamalsaha))
-- Prepare docs for 7.0.0-rc.1 [\#1050](https://github.com/appscode/voyager/pull/1050) ([tamalsaha](https://github.com/tamalsaha))
+- Prepare docs for 7.1.0-rc.1 [\#1050](https://github.com/appscode/voyager/pull/1050) ([tamalsaha](https://github.com/tamalsaha))
 - Correctly set port to binder [\#1049](https://github.com/appscode/voyager/pull/1049) ([tamalsaha](https://github.com/tamalsaha))
 - Do not use absolute path for minikube, fixes \#1047 for 6.0 branch [\#1048](https://github.com/appscode/voyager/pull/1048) ([gavvvr](https://github.com/gavvvr))
 - Fix TestALPNOptions [\#1046](https://github.com/appscode/voyager/pull/1046) ([tamalsaha](https://github.com/tamalsaha))
@@ -94,8 +94,8 @@ aliases:
 - Use double quotes with `\*` [\#1037](https://github.com/appscode/voyager/pull/1037) ([tamalsaha](https://github.com/tamalsaha))
 - Fix tcp-sni doc [\#1036](https://github.com/appscode/voyager/pull/1036) ([tamalsaha](https://github.com/tamalsaha))
 
-## [7.0.0-rc.0](https://github.com/appscode/voyager/tree/7.0.0-rc.0) (2018-05-10)
-[Full Changelog](https://github.com/appscode/voyager/compare/6.0.0...7.0.0-rc.0)
+## [7.1.0-rc.0](https://github.com/appscode/voyager/tree/7.1.0-rc.0) (2018-05-10)
+[Full Changelog](https://github.com/appscode/voyager/compare/6.0.0...7.1.0-rc.0)
 
 **Fixed bugs:**
 
@@ -135,7 +135,7 @@ aliases:
 -  Updated doc for ssl-passthrough [\#1031](https://github.com/appscode/voyager/pull/1031) ([diptadas](https://github.com/diptadas))
 - Separated config-check from render-config [\#1030](https://github.com/appscode/voyager/pull/1030) ([diptadas](https://github.com/diptadas))
 - Remove AssignTypeKind and GetGroupVersionKind util methods [\#1029](https://github.com/appscode/voyager/pull/1029) ([tamalsaha](https://github.com/tamalsaha))
-- Prepare docs for 7.0.0-rc.0 [\#1027](https://github.com/appscode/voyager/pull/1027) ([tamalsaha](https://github.com/tamalsaha))
+- Prepare docs for 7.1.0-rc.0 [\#1027](https://github.com/appscode/voyager/pull/1027) ([tamalsaha](https://github.com/tamalsaha))
 - Check HAProxy config before writing into configmap [\#1026](https://github.com/appscode/voyager/pull/1026) ([diptadas](https://github.com/diptadas))
 - Handle empty renewed certificate [\#1025](https://github.com/appscode/voyager/pull/1025) ([tamalsaha](https://github.com/tamalsaha))
 - Update chart path for release-5.0 [\#1021](https://github.com/appscode/voyager/pull/1021) ([tamalsaha](https://github.com/tamalsaha))
@@ -143,7 +143,7 @@ aliases:
 - Don't panic if admission options is nil [\#1019](https://github.com/appscode/voyager/pull/1019) ([tamalsaha](https://github.com/tamalsaha))
 - Disable admission controllers for webhook server [\#1018](https://github.com/appscode/voyager/pull/1018) ([tamalsaha](https://github.com/tamalsaha))
 - Add Update\*\*\*Status helpers [\#1017](https://github.com/appscode/voyager/pull/1017) ([tamalsaha](https://github.com/tamalsaha))
-- Update client-go v7.0.0 [\#1016](https://github.com/appscode/voyager/pull/1016) ([tamalsaha](https://github.com/tamalsaha))
+- Update client-go v7.1.0 [\#1016](https://github.com/appscode/voyager/pull/1016) ([tamalsaha](https://github.com/tamalsaha))
 - Add haproxy stretch image [\#1014](https://github.com/appscode/voyager/pull/1014) ([diptadas](https://github.com/diptadas))
 - Rename flag --analytics to --enable-analytics [\#1013](https://github.com/appscode/voyager/pull/1013) ([diptadas](https://github.com/diptadas))
 - Update workload api [\#1011](https://github.com/appscode/voyager/pull/1011) ([tamalsaha](https://github.com/tamalsaha))
